@@ -15,7 +15,7 @@ export const blogApi = createApi({
 
     getSingleBlog: builder.query({
       query: (id: string) => ({
-        url: `api/${id}`,
+        url: `api/blogs/${id}`,
       }),
     }),
   }),
