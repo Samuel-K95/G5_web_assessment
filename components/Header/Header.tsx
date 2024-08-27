@@ -9,7 +9,7 @@ type route = {
   route: string;
 };
 
-const header_routes: route[] = [
+export const header_routes: route[] = [
   {
     name: "Home",
     route: "/home",
@@ -28,7 +28,7 @@ const header_routes: route[] = [
   },
   {
     name: "Blogs",
-    route: "/blogs",
+    route: "/blogs-list",
   },
   {
     name: "Get Involved",
@@ -43,7 +43,7 @@ const Header = () => {
     <header className="flex justify-between items-center px-8 py-5">
       <div>
         <Image
-          src={"assets/header/logo.svg"}
+          src={"/assets/header/logo.svg"}
           width={100}
           height={100}
           alt="A2SV logo"
