@@ -25,3 +25,6 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+# deployed link
+- https://g5-web-assessment-6rcstotnx-samuel-k95s-projects.vercel.app/
+
