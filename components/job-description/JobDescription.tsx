@@ -47,8 +47,8 @@ const JobDescription = ({ id }: descriptionProp) => {
         <div className="w-[4/5] flex justify-center items-center flex-col mb-12">
           <p className="font-normal text-[32px]">{blogData?.title}</p>
           <div className="flex gap-1 text-[16px]">
-            {blogData.tags.map((tag) => (
-              <span>{tag.toUpperCase()}</span>
+            {blogData.tags.map((tag, index) => (
+              <span key={index}>{tag.toUpperCase()}</span>
             ))}
             <span>|</span>
             <span>6 MIN READ</span>

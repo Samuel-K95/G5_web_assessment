@@ -1,5 +1,3 @@
-## Getting Started
-
 # Description
 
 - This is the final web assessment project, which is to  create a two-page application that showcases a list of blogs and provides detailed views of each blog

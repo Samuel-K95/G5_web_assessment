@@ -4,7 +4,7 @@ import JobDescription from "@/components/job-description/JobDescription";
 import { usePathname } from "next/navigation";
 import React from "react";
 
-const blogDescriptionPage = () => {
+const BlogDescriptionPage = () => {
   const url = usePathname();
   const parts = url.split("/");
   const id = parts[parts.length - 1];
@@ -15,4 +15,4 @@ const blogDescriptionPage = () => {
   );
 };
 
-export default blogDescriptionPage;
+export default BlogDescriptionPage;

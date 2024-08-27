@@ -3,8 +3,8 @@ import BlogCard from "@/components/blog-card/Blog";
 import { blog } from "@/schemas";
 import { useGetAllBlogsQuery } from "@/store/service/blog-service";
 import Link from "next/link";
-import React, { useEffect } from "react";
-const page = () => {
+import React from "react";
+const DescriptionPage = () => {
   const { data, isLoading, isError, isSuccess } =
     useGetAllBlogsQuery(undefined);
   let recievedData: blog[] = [];
@@ -62,4 +62,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default DescriptionPage;
